@@ -1,0 +1,25 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: black;
+
+}
+
+.intro {
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    max-width: 90%;
+    max-height: 1000px;
+    margin: 55px;
+    font-size: 26px;
+    padding: 35px;
+}
+.intro_img {
+    width: 40%;
+    height: 40%;
+    border-radius: 60px;
+    float: right;
+    margin-bottom: -20%;
+    position: relative;
+}
