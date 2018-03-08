@@ -1,25 +1,31 @@
 body{
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Calibri, 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', sans-serif;
     background-color: black;
-
+    font-size: 1.5em;
+    text-align: right;
 }
 
-.intro {
+h1 {
+    font-size: 2em;
+    text-align: left;
+}
+
+.textbox {
     color: black;
-    text-align: center;
     background-color: white;
     border-radius: 5px;
     max-width: 90%;
     max-height: 1000px;
-    margin: 55px;
-    font-size: 26px;
-    padding: 35px;
+    margin: 60px;
+    padding: 100px 400px 100px 100px;
+    border: 25px;
 }
-.intro_img {
-    width: 40%;
-    height: 40%;
+
+.textbox_img {
+    height: 280px;
+    width: 280px;
     border-radius: 60px;
     float: right;
     margin-bottom: -20%;
-    position: relative;
+    position: absolute;
 }
